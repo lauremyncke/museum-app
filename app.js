@@ -34,4 +34,6 @@ app.get("/contact", function(request, response){
 });
 
 app.set('port', (process.env.PORT || 5000));
-app.listen(app.listen(app.get('port'), function() { }););
+app.listen(app.listen(app.get('port'), function() {
+
+}));
