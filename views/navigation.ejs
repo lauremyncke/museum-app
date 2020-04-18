@@ -1,0 +1,27 @@
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="/"><img src="/img/nav_home.png" alt="navigation button home" width="34%"></a>
+  <a href="/collection"><img src="/img/nav_gallery.png" alt="navigation button collection" width="34%"></a>
+  <a href="/contact"><img src="/img/nav_contact.png" alt="navigation button contact" width="34%"></a>
+  <a href="#"><img src="/img/nav_search.png" alt="navigation button search" width="34%"></a>
+</div>
+
+<span class="click" style="cursor:pointer;" onclick="openNav()">
+  <div class="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+</span>
+
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>

@@ -1,0 +1,12 @@
+<%- include('head'); %>
+
+<h1 class="intro_tekst">Welkom bij museum Voorlinden</h1>
+<img  class="element" src="/img/element.png" alt="achtergrond element, kleur geel" width="50%;">
+<h2>Kunstwerken van de maand</h2>
+
+<% for (let i=0; i<4; i++) { %>
+  <%- include('collection_item', {item: art[i], index: i}); -%>
+  <% } // close forloop %>
+
+
+<script src="/js/script.js"></script>

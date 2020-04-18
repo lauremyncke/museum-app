@@ -1,0 +1,25 @@
+<%- include('head'); %>
+
+<div class="container">
+  <form action="action_page.php">
+    <h4>Vragen? Contacteer ons</h4>
+    <label for="mail">E-mail</label>
+    <input type="text" id="mail" name="mail" placeholder="voorbeeld@voorlinden.com">
+
+    <label for="why">Reden</label>
+    <select id="why" name="why">
+      <option value="Groepsaankoop">Groepsaankoop</option>
+      <option value="Invaliditeit">Invaliditeit</option>
+      <option value="Invaliditeit">Andere ...</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Bericht" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<script src="/js/script.js"></script>
+
+<%- include('footer'); -%>

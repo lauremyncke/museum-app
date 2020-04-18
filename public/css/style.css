@@ -1,0 +1,248 @@
+/* NAVIGATIE */
+
+.hamburger {
+  width: 20%;
+  margin-top: 0.5rem;
+  margin-left: 0.4rem;
+  display: inline-block;
+}
+
+.hamburger div {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+  border-radius: 10px;
+  margin: 6px 0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  transition: 0.3s;
+  padding-left: 2rem;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 27px;
+  color: black;
+  margin-left: 50px;
+}
+
+/* SEARCHBAR */
+
+.collection_titel {
+  font-family: 'aller', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+#searchbar {
+  width: 20%;
+  padding: 0.3rem;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: solid #fff3e7;
+  margin-left: 12rem;
+  margin-top: 1rem;
+  z-index: -2;
+}
+
+input[type=text] {
+   width: 20%;
+   -webkit-transition: width 0.15s ease-in-out;
+   transition: width 0.15s ease-in-out;
+   font-weight: 100;
+   text-align: center;
+   font-style: italic;
+}
+ /* FILTER  COLLECTION*/
+
+.collection_item {
+  width: calc(50vw - 10px);
+}
+
+.show_collection_item {
+  display: inline-block;
+}
+
+.hide_collection_item {
+  display: none;
+}
+
+.kijker {
+  margin-left: 1rem;
+  margin-top: 3rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  cursor: pointer;
+  color: #b0b0b0;
+  font-family: 'avenir next', sans-serif;
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+
+.button-group {
+  text-align: center;
+}
+
+.button:hover {
+  background-color: #fff3e7;
+  color: black;
+  height: 0.01rem;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:active,
+.button.is-checked {
+  background-color: #fff3e7;
+  color: black;
+  height: 0.02rem;
+}
+
+/* INTRO HOME*/
+
+.intro_tekst {
+  width: 80%;
+  font-family: 'aller', sans-serif;
+  text-align: center;
+  margin-top: 8rem;
+  margin-left: 3rem;
+}
+
+.element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 6rem;
+  margin-left: 4rem;
+  z-index: -5;
+}
+
+h2 {
+  font-family: 'aller', sans-serif;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: normal;
+  margin-top: 8rem;
+  margin-bottom: 0;
+}
+
+/* TITLE ARTIST */
+
+.titel {
+  font-family: 'aller', sans-serif;
+  text-align: center;
+}
+
+.description {
+  font-family: 'aller', sans-serif;
+  font-weight: 100;
+  font-size: 0.8rem;
+  margin-left: 1.3rem;
+  text-align: center;
+}
+
+/* DETAIL TITEL */
+
+.title_detail {
+  font-family: 'aller', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.detail_image {
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.data_detail, .period_detail {
+  font-family: 'aller', sans-serif;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  display: inline-block;
+}
+
+.data_detail {
+  margin-left: 11rem;
+}
+
+.artist_detail {
+  font-family: 'aller', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-left: 4.1rem;
+  display: inline-block;
+}
+
+.descrip_detail {
+  width: 70%;
+  font-family: 'avenir next', sans-serif;
+  font-weight: lighter;
+  font-size: 0.9rem;
+  text-align: justify;
+  margin-left: 4rem;
+}
+
+/* -- CONTACT FORM --*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 6px;
+  border: 2px solid white;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+input[type=submit] {
+  background-color: #e3e3e3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 8rem;
+}
+
+input[type=submit]:hover {
+  background-color: #b0b0b0;
+}
+
+h4 {
+  margin-top: -0.2rem;
+  font-size: 1.9rem;
+  text-align: center;
+
+}
+.container {
+  font-family: 'avenir next', sans-serif;
+  font-size: 0.9rem;
+  margin: auto;
+  margin-top: 1rem;
+  width: 70%;
+  background-color: #fff3e7;
+  padding: 20px;
+}

@@ -1,0 +1,89 @@
+{
+  "collection": [
+    {
+      "title": "Izze",
+      "image": "JW_01.jpg",
+      "excerpt": "Targeting the Gen-Z audience.",
+      "description": "Like Izze, Gen-Z does not like to be defined by one label or stereotype, often having multiple interests and ambitions. We visualized this concept with fluid gradients that always shift and change through dynamic animation. We also used these fluid multi-color gradients as the lighting technique for all the photoshoots.",
+      "artist": "Jessica Walsh",
+      "data": "Maart",
+      "period": "2017"
+    },
+    {
+      "title": "Color Lover",
+      "image": "JW_02.jpg",
+      "excerpt": "Chromatic dressing & the colors.",
+      "description": "The world is so polarized that I want people to feel welcome to my brand. This was our inspiration. The concept and style choices were made to reflect a space in this world for both self-expression & unity.",
+      "artist": "Jessica Walsh",
+      "data": "Maart",
+      "period": "2018"
+    },
+    {
+      "title": "No Filter",
+      "image": "JW_04.jpg",
+      "excerpt": "These were brought to life using set design, photography and custom typography for every image.",
+      "description": "Photography series. The posters of these images are on sale to help benefit our non-profit organization Ladies, Wine & Design.",
+      "artist": "Jessica Walsh",
+      "data": "September",
+      "period": "2018"
+    },
+    {
+      "title": "Aishti by the Sea ",
+      "image": "JW_03.jpg",
+      "excerpt": "conceptualize and design a campaign around the intersection of fashion and art.",
+      "description": "Aizone, psychedelic and constructivist worlds with imagery featuring 3D environments of 2D pop art. With the help of body painter Anastasia Durasova and set builders Sing-Sing, we created 3D environments inspired by 2D pop art paintings. We brought psychedelic and constructivist worlds to life, complete with optical illusions and a pink painted horse. Images ran on billboards, in magazines, in newspapers across the Middle East.",
+      "artist": "Jessica Walsh",
+      "data": "Februari",
+      "period": "2014"
+    },
+    {
+      "title": "Fitting in is Overrated",
+      "image": "KA_1.jpg",
+      "description": "Meet the designer making prints for Beyoncé and Cara Delevingne",
+      "artist": "Kelly Anna",
+      "tags": ["print"],
+      "data": "Februari",
+      "period": "2018"
+    },
+    {
+      "title": "Columbia Road girls",
+      "image": "KA_2.jpg",
+      "description": "Meet the designer making prints for Beyoncé and Cara Delevingne",
+      "artist": "Kelly Anna",
+      "data": "April",
+      "period": "2018"
+    },
+    {
+      "title": "Never Tame Your Game",
+      "image": "KA_3.jpg",
+      "description": "Meet the designer making prints for Beyoncé and Cara Delevingne",
+      "artist": "Kelly Anna",
+      "data": "Augustus",
+      "period": "2017"
+    },
+    {
+      "title": "ART NYC",
+      "image": "KA_4.jpg",
+      "description": "Meet the designer making prints for Beyoncé and Cara Delevingne",
+      "artist": "Kelly Anna",
+      "data": "Maart",
+      "period": "2019"
+    },
+    {
+      "title": "Art Thou",
+      "image": "KA_5.jpg",
+      "description": "Meet the designer making prints for Beyoncé and Cara Delevingne",
+      "artist": "Kelly Anna",
+      "data": "April",
+      "period": "2019"
+    },
+    {
+      "title": "She Glides",
+      "image": "KA_6.jpeg",
+      "description": "Meet the designer making prints for Beyoncé and Cara Delevingne",
+      "artist": "Kelly Anna",
+      "data": "Oktober",
+      "period": "2019"
+    }
+  ]
+}

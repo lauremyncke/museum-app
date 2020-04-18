@@ -1,0 +1,44 @@
+<%- include('head'); %>
+<div>
+    <h1 class="collection_titel">Collection</h1>
+  </div>
+
+  <div class="button-group filters-button-group">
+    <button class="button is-checked" data-filter="*">Show all</button>
+
+    <%
+      //Get All artists
+      const artists = art.map(function(elem) {
+        return elem.artist;
+      });
+
+      //Get all the unique artists
+      const uniqueArtists = [];
+      for(let i = 0; i < artists.length; i++){
+        const artist = artists[i];
+        if(!uniqueArtists.includes(artist)){
+          uniqueArtists.push(artist);
+        }
+      }
+
+      //Add the fitler buttons to the UI
+      for (let i=0; i < uniqueArtists.length; i++) { %>
+        <button class="button" data-filter=".<%=uniqueArtists[i].toLowerCase().replace(" ", "_")%>"><%=uniqueArtists[i] %></button>
+    <% } // close forloop %>
+  </div>
+
+  <input id="searchbar" onkeyup="search_art()" type="text"name="search" placeholder="Zoeken ...">
+
+<div class="collection_container">
+
+  <% for (let i=0; i < art.length; i++) { %>
+    <%- include('collection_item', {
+      item: art[i],
+      index: i,
+    }); -%>
+    <% } // close forloop %>
+</div>
+
+<script src="/js/isotope.js"></script>
+<script src="/js/script.js"></script>
+<%- include('footer'); -%>
